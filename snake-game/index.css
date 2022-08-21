@@ -1,0 +1,25 @@
+.board {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  height: 4px;
+}
+
+.box {
+  width: 4px;
+  height: 4px;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+
+.snake {
+  background-color: blue;
+}
+
+[data-order="0"] {
+  background-color: red;
+}

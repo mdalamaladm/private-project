@@ -1,0 +1,14 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.row {
+  display: flex;
+}
